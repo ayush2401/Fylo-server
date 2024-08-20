@@ -22,6 +22,10 @@ app.get("/api/user", (req, res) => {
   res.send("Hi my name is Ayush");
 })
 
+app.get("/api/info", (req, res) => {
+  res.send("This is a test server for fyllo to check ci/cd");
+})
+
 app.get("/api/data", (req, res) => {
   res.send(data);
 });
