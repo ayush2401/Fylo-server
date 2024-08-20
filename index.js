@@ -18,6 +18,9 @@ app.get("/api", (req, res) => {
   res.send("Backend api is working..");
 });
 
+app.get("/api/user", (req, res) => {
+  res.send("Hi my name is Ayush");
+})
 
 app.get("/api/data", (req, res) => {
   res.send(data);
